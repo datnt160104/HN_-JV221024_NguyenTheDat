@@ -81,14 +81,14 @@ public class Test {
 
     public static void sumOdd(int[] arr) {
         int sum = 0;
-        System.out.println("The odd elements in the array are:");
+        System.out.println("Các phần tử lẻ trong mảng là:");
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] % 2 != 0 && arr[i] != 0) {
                 System.out.printf("%d ", arr[i]);
                 sum += arr[i];
             }
         }
-        System.out.printf("\nThe sum of odd elements is:%d\n", sum);
+        System.out.printf("\nTổng các số lẻ là:%d\n", sum);
     }
 
     public static void findMinMax(int[] arr) {
@@ -104,8 +104,8 @@ public class Test {
                 }
             }
         }
-        System.out.printf("The maximum value in the array is: %d\n", max);
-        System.out.printf("The minimum value in the array is: %d\n", min);
+        System.out.printf("Giá trị lớn nhất trong mảng là: %d\n", max);
+        System.out.printf("Giá trị nhỏ nhất trong mảng là: %d\n", min);
     }
     public static void countDivisibleByTwoAndThree(int[] arr) {
         int countTwo = 0;
@@ -120,8 +120,8 @@ public class Test {
                 }
             }
         }
-        System.out.printf("The number of elements divisible by 2 is: %d\n", countTwo);
-        System.out.printf("The number of elements divisible by 3 is: %d\n", countThree);
+        System.out.printf("số chia hết cho 2 là: %d\n", countTwo);
+        System.out.printf("số chia hết cho 3 là: %d\n", countThree);
     }
 
     public static void reverseArray(int[] arr) {
